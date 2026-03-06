@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO TITLE -->
+    <title>TechNova | Laptop, Điện thoại & Phụ kiện công nghệ chính hãng</title>
+
+    <!-- SEO META -->
+    <meta name="description" content="TechNova - Hệ thống bán lẻ laptop, điện thoại và phụ kiện công nghệ cao cấp với ưu đãi hấp dẫn và sản phẩm chính hãng.">
+    <meta name="keywords" content="laptop, điện thoại, macbook, dell xps, iphone, samsung, phụ kiện công nghệ, mua laptop chính hãng">
+    <meta name="author" content="TechNova">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="TechNova - Laptop & Điện thoại cao cấp">
+    <meta property="og:description" content="Khám phá bộ sưu tập công nghệ cao cấp với ưu đãi tốt nhất tại TechNova.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./Image/banner.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./Image/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-microchip"></i> TechNova
+            </a>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Trang chủ</a></li>
+                    <!-- Liên kết trỏ trực tiếp đến ID của từng danh mục -->
+                    <li><a href="#laptops">Laptop</a></li>
+                    <li><a href="#phones">Điện thoại</a></li>
+                    <li><a href="#accessories">Phụ kiện</a></li>
+                    <li><a href="#sale">Khuyến mãi</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <form class="search-box">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button type="submit">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </form>
+                <a href="#" class="cart-btn">
+                    <i class="fa-solid fa-shopping-cart"></i>
+                    <span class="cart-count">3</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner / Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>TechNova - Hệ thống bán lẻ Laptop & Điện thoại cao cấp</h1>
+                <p>Khám phá bộ sưu tập các sản phẩm công nghệ tiên tiến nhất với ưu đãi lên đến 30%. Nâng tầm cuộc sống số của bạn ngay hôm nay.</p>
+                <a href="#laptops" class="btn btn-primary">Khám phá ngay</a>
+            </div>
+        </section>
+
+        <!-- Product Section -->
+        <section class="products section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Danh mục sản phẩm</h2>
+                    <p>Khám phá các thiết bị công nghệ được yêu thích nhất</p>
+                </div>
+
+            <!-- ================= LAPTOP ================= -->
+            <div id="laptops" class="category-section">
+                <h3 class="category-title"><i class="fa-solid fa-laptop"></i> Laptop Cao Cấp & Gaming</h3>
+                <div id="laptop-grid" class="product-grid">
+
+                    <!-- MacBook -->
+                    <article class="product-card" data-masp="SP001">
+                        <div class="product-image">
+                            <img src="./Image/Apple_MacBook_Pro_14_M4.png"
+                                alt="Apple MacBook Pro 14 M4 24GB RAM 512GB SSD Liquid Retina XDR"
+                                loading="lazy">
+                            <span class="badge">Mới</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Apple MacBook Pro 14 M4 (2026)</h3>
+                            <p class="product-desc">
+                                Chip Apple M4 thế hệ mới, RAM 24GB, SSD 512GB, màn hình Liquid Retina XDR 120Hz,
+                                tối ưu cho thiết kế đồ họa và lập trình chuyên sâu.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">39.990.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Dell -->
+                    <article class="product-card" data-masp="SP002">
+                        <div class="product-image">
+                            <img src="./Image/Dell_XPS_15_9530__2024.png"
+                                alt="Dell XPS 15 9530 2024 OLED 3.5K Core i9 RTX 4070"
+                                loading="lazy">
+                            <span class="badge sale">-10%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Dell XPS 15 9530 (Core i9, RTX 4070)</h3>
+                            <p class="product-desc">
+                                Màn hình OLED 3.5K siêu sắc nét, Intel Core i9 Gen 13,
+                                NVIDIA RTX 4070, thiết kế nhôm CNC cao cấp dành cho sáng tạo nội dung.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">45.000.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ASUS -->
+                    <article class="product-card" data-masp="SP003">
+                        <div class="product-image">
+                            <img src="./Image/ASUS_ROG_Zephyrus_G14.png"
+                                alt="ASUS ROG Zephyrus G14 Ryzen 9 RTX 4060 120Hz"
+                                loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">ASUS ROG Zephyrus G14 (Ryzen 9, RTX 4060)</h3>
+                            <p class="product-desc">
+                                Laptop gaming mỏng nhẹ, AMD Ryzen 9 hiệu năng cao,
+                                GPU RTX 4060, màn hình Nebula Display 120Hz cho trải nghiệm chơi game mượt mà.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">38.490.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- ================= ĐIỆN THOẠI ================= -->
+            <div id="phones" class="category-section">
+                <h3 class="category-title"><i class="fa-solid fa-mobile-screen"></i> Điện Thoại Flagship</h3>
+                <div id="phone-grid" class="product-grid">
+
+                    <!-- iPhone -->
+                    <article class="product-card" data-masp="SP004">
+                        <div class="product-image">
+                            <img src="./Image/iPhone_15_Pro_Max_256GB.png"
+                                alt="iPhone 15 Pro Max 256GB Titanium A17 Pro"
+                                loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">iPhone 15 Pro Max 256GB</h3>
+                            <p class="product-desc">
+                                Khung Titanium siêu nhẹ, chip A17 Pro mạnh mẽ,
+                                camera zoom quang học 5x, màn hình Super Retina XDR sắc nét.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">29.590.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Samsung -->
+                    <article class="product-card" data-masp="SP005">
+                        <div class="product-image">
+                            <img src="./Image/Samsung_Galaxy_S24_Ultra.png"
+                                alt="Samsung Galaxy S24 Ultra 200MP Snapdragon 8 Gen 3"
+                                loading="lazy">
+                            <span class="badge">Mới</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Samsung Galaxy S24 Ultra</h3>
+                            <p class="product-desc">
+                                Camera 200MP chụp đêm vượt trội, Snapdragon 8 Gen 3,
+                                Galaxy AI hỗ trợ dịch thuật và chỉnh sửa ảnh thông minh.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">31.990.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Pixel -->
+                    <article class="product-card" data-masp="SP006">
+                        <div class="product-image">
+                            <img src="./Image/Google_Pixel_8_Pro.png"
+                                alt="Google Pixel 8 Pro Tensor G3 Camera AI"
+                                loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Google Pixel 8 Pro</h3>
+                            <p class="product-desc">
+                                Camera AI hàng đầu phân khúc, chip Tensor G3,
+                                cam kết cập nhật Android trong 7 năm liên tục.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">22.490.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- ================= PHỤ KIỆN ================= -->
+            <div id="accessories" class="category-section">
+                <h3 class="category-title"><i class="fa-solid fa-headphones"></i> Phụ Kiện Công Nghệ Thông Minh</h3>
+                <div id="accessory-grid" class="product-grid">
+
+                    <!-- Sony -->
+                    <article class="product-card" data-masp="SP007">
+                        <div class="product-image">
+                            <img src="./Image/Tai_nghe_Sony_WH-1000XM5.png"
+                                alt="Sony WH-1000XM5 chống ồn chủ động 30 giờ pin"
+                                loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Sony WH-1000XM5</h3>
+                            <p class="product-desc">
+                                Công nghệ chống ồn chủ động hàng đầu, pin 30 giờ,
+                                chất âm chi tiết, hỗ trợ kết nối đa thiết bị.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">7.490.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Apple Watch -->
+                    <article class="product-card" data-masp="SP008">
+                        <div class="product-image">
+                            <img src="./Image/Apple_Watch_Series_9.png"
+                                alt="Apple Watch Series 9 S9 SiP màn hình siêu sáng"
+                                loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Apple Watch Series 9</h3>
+                            <p class="product-desc">
+                                Chip S9 SiP mới, màn hình siêu sáng 2000 nits,
+                                hỗ trợ Double Tap và theo dõi sức khỏe toàn diện.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">9.290.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Logitech -->
+                    <article class="product-card" data-masp="SP009">
+                        <div class="product-image">
+                            <img src="./Image/Chuột_Logitech_MX_Master_3S.png"
+                                alt="Logitech MX Master 3S 8K DPI MagSpeed"
+                                loading="lazy">
+                            <span class="badge sale">-15%</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Logitech MX Master 3S</h3>
+                            <p class="product-desc">
+                                Cảm biến 8K DPI siêu chính xác, phím bấm tĩnh âm,
+                                con lăn MagSpeed siêu tốc dành cho dân văn phòng và designer.
+                            </p>
+                            <div class="product-bottom">
+                                <span class="product-price">2.490.000₫</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div> 
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="" class="logo footer-logo"><i class="fa-solid fa-microchip"></i> TechNova</a>
+                <p>Hệ thống bán lẻ thiết bị công nghệ hàng đầu, mang đến cho bạn những trải nghiệm mua sắm tuyệt vời và an tâm nhất.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Chính sách</h4>
+                <ul>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Hướng dẫn trả góp</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Về chúng tôi</h4>
+                <ul>
+                    <li><a href="#">Giới thiệu công ty</a></li>
+                    <li><a href="#">Hệ thống cửa hàng</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Tin tức công nghệ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Liên hệ</h4>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Đường Công Nghệ, Quận 1, TP.HCM</li>
+                    <li><i class="fa-solid fa-phone"></i> 1900 1234 567</li>
+                    <li><i class="fa-solid fa-envelope"></i> support@technova.vn</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 TechNova. Tất cả các quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+    async function loadProducts() {
+        try {
+            console.log("🔄 Đang gọi API...");
+
+            const response = await fetch('http://localhost:3000/api/products');
+
+            if (!response.ok) {
+                throw new Error("Không thể kết nối API");
+            }
+
+            const products = await response.json();
+            console.log("📦 Dữ liệu nhận được:", products);
+
+            if (!products || products.length === 0) {
+                console.warn("⚠ Không có sản phẩm trong database");
+                return;
+            }
+
+            // Duyệt từng sản phẩm từ MongoDB
+            products.forEach(sp => {
+
+                // Tìm product-card có data-masp trùng
+                const card = document.querySelector(
+                    `.product-card[data-masp="${sp.maSP}"]`
+                );
+
+                if (!card) {
+                    console.warn(`❌ Không tìm thấy card cho mã: ${sp.maSP}`);
+                    return;
+                }
+
+                // Cập nhật tên sản phẩm
+                const nameEl = card.querySelector('.product-name');
+                if (nameEl) {
+                    nameEl.textContent = sp.tenSP;
+                }
+
+                // Cập nhật mô tả
+                const descEl = card.querySelector('.product-desc');
+                if (descEl) {
+                    descEl.textContent = sp.moTa;
+                }
+
+                // Cập nhật giá
+                const priceEl = card.querySelector('.product-price');
+                if (priceEl) {
+                    priceEl.textContent = sp.giaSP;
+                }
+
+            });
+
+            console.log("✅ Cập nhật dữ liệu thành công!");
+
+        } catch (error) {
+            console.error("❌ Lỗi loadProducts:", error);
+
+            // Hiển thị lỗi nhẹ cho người dùng
+            const grids = document.querySelectorAll('.product-grid');
+            grids.forEach(grid => {
+                grid.innerHTML += `
+                    <p style="color:red; padding:10px;">
+                        Không thể tải dữ liệu sản phẩm.
+                    </p>
+                `;
+            });
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        loadProducts();
+    });
+    </script>
+</body>
+</html>
